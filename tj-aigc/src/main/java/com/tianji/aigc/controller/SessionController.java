@@ -31,4 +31,6 @@ public class SessionController {
     public List<SessionVO.Example> hotExamples(@RequestParam(value = "n",defaultValue = "3") Integer n){
         return chatSessionService.hotExamples(n);
     }
+
+
 }
